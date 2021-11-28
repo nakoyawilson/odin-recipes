@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #DDDDDD;
+  color: #000;
+}
+
+.containter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80rem;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  color: #125D98;
+}
+
+a {
+  color: #3C8DAD;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #F5A962;
+}
+
+.food-image {
+  width: 400px;
+  height: auto;
+  float: left;
+  padding: 3rem;
+}
+
+.source {
+  font-style: italic;
+}
